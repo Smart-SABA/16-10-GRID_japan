@@ -1,0 +1,60 @@
+body {
+  background-color: bisque;
+}
+
+.container {
+  margin: 100px;
+  background-color: white;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.header h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.right {
+  margin-left: 60%;
+  padding-top: 2%;
+}
+
+.right a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.image img {
+  position: relative;
+  width: 80%;
+  height: 60vh;
+  margin-left: 20%;
+}
+
+.image .tokyo {
+  background-color: white;
+  position: absolute;
+  width: 11%;
+  height: 25%;
+  padding-left: 11%;
+  bottom: 25%;
+  font-size: 25px;
+}
+
+.content {
+  padding-left: 20%;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.footer i {
+  float: right;
+  border: 2px solid black;
+  width: 5%;
+  text-align: center;
+  padding: 15px;
+}
